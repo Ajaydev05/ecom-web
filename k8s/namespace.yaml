@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: ecommerce
   labels:
-    project: project-1-website
+    project: project-1
