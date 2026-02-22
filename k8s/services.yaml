@@ -1,6 +1,6 @@
-# ─────────────────────────────────────────────
+
 # MongoDB Service (ClusterIP - internal only)
-# ─────────────────────────────────────────────
+
 apiVersion: v1
 kind: Service
 metadata:
@@ -19,9 +19,9 @@ spec:
 
 ---
 
-# ─────────────────────────────────────────────
+
 # Backend Service (ClusterIP - internal only)
-# ─────────────────────────────────────────────
+
 apiVersion: v1
 kind: Service
 metadata:
@@ -40,9 +40,9 @@ spec:
 
 ---
 
-# ─────────────────────────────────────────────
+
 # Frontend Service (NodePort - external access)
-# ─────────────────────────────────────────────
+
 apiVersion: v1
 kind: Service
 metadata:
